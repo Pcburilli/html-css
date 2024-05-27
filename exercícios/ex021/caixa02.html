@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #29707D;
+            text-align: justify;
+            text-indent: 20px;
+        }
+        header {
+            background-color: #4b8b97;
+            text-align: center;
+            text-indent: 0px;
+            height: auto;
+            width: 400px;
+            padding-top: 1px;
+            padding-bottom: 10px;
+            border: solid black;
+            border-radius: 10px;
+            margin: auto;
+        }
+        nav {
+            background-color: #8BC7D2;
+            margin: 0px 10px;
+            border-radius: 10px;
+            padding: 3px 0px;
+            box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.464);
+        }
+        nav > a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0px 30px;
+        }
+        nav > a:hover {
+            color: #0D4852;
+            text-decoration: underline;
+        }
+        main {
+            padding: 10px;
+            margin: 10px;
+        }
+        section {
+            background-color: white;
+            padding: 5px 10px;
+            margin: 10px 0px 10px 0px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.483);
+        }
+        section > article {
+            background-color: lightgray;
+            margin: 10px 2px 10px 2px;
+            padding: 5px;
+            border-radius: 10px;
+            box-shadow: 1.5px 1.5px 2px 2px rgba(0, 0, 0, 0.349);
+        }
+        aside {
+            background-color: lightgray;
+            margin: 10px 2px 10px 2px;
+            border-radius: 10px;
+            box-shadow: 1.5px 1.5px 2px 2px rgba(0, 0, 0, 0.349);
+        }
+        footer {
+            background-color: #002B33;
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        a {
+            color: #006b7d;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #6c9ca5;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> A sociedade contemporânea</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="capitalismo">
+                <h2>O capitalismo moderno</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis rem optio, quo repudiandae sit a veritatis inventore nulla. Cupiditate laudantium culpa ipsam perferendis sed earum quam pariatur quod minus consecte! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nulla ullam sint necessitatibus reprehenderit laudantium molestias nam dignissimos consequatur quae. Deserunt nobis rerum doloremque iure hic odit quis? Dolores, possimus!
+                </p>
+            </article>
+            <aside>
+                <p>Artigo escrito por <a href="https://www.google.com/search?q=Roberto+Carlos&oq=Roberto+Carlos&gs_lcrp=EgZjaHJvbWUyFAgAEEUYORhDGOMCGLEDGIAEGIoFMg8IARAuGEMYsQMYgAQYigUyDwgCEC4YQxixAxiABBiKBTIKCAMQABixAxiABDIHCAQQABiABDIMCAUQABhDGIAEGIoFMgcIBhAAGIAEMgcIBxAuGIAEMgoICBAAGLEDGIAEMgoICRAAGLEDGIAE0gEIMzU3NGowajmoAgCwAgE&sourceid=chrome&ie=UTF-8" target="_blank">Roberto Carlos</a></p>
+            </aside>
+        </section>
+        <section>
+            <article id="comunismo">
+                <h2>O comunismo moderno</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem cumque neque facilis nostrum non fuga. Libero mollitia optio sequi magni repellendus hic ducimus perferendis, provident dolores placeat amet itaque perspiciatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis reprehenderit expedita id repellendus, voluptas qui fugiat aperiam, voluptatum adipisci deleniti hic soluta unde repellat, fugit atque iure impedit accusamus voluptates?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus repudiandae nostrum delectus quibusdam, unde asperiores autem quos adipisci mollitia et error illum. Quos fuga qui odit distinctio, cum explicabo labore?</p>
+                </article>
+                <aside><p>Artigo escrito por <a href="https://www.google.com/search?q=ronaldo+fen%C3%B4meno&sca_esv=be445f0cc062ab15&sca_upv=1&ei=sEw5ZuLrKOPc1sQP9LaQsAY&udm=&ved=0ahUKEwjig8uT_fmFAxVjrpUCHXQbBGYQ4dUDCBA&uact=5&oq=ronaldo+fen%C3%B4meno&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJvbmFsZG8gZmVuw7RtZW5vMg8QABiABBhDGIoFGEYY-wEyCBAuGIAEGLEDMgUQABiABDIFEAAYgAQyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyGxAAGIAEGEMYigUYRhj7ARiXBRiMBRjdBNgBAUjoEVCnBVjPDXAAeAKQAQCYAfcCoAHHDaoBBzAuMS4yLjO4AQPIAQD4AQGYAgOgAq0FwgIEEAAYR8ICBRAuGIAEmAMAiAYBkAYIugYGCAEQARgTkgcHMS4wLjEuMaAH9kw&sclient=gws-wiz-serp" target="_blank">Ronaldo Nazário</a></p>
+                </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Feito por Pedro Costa Burilli</p>
+    </footer>
+</body>
+</html>

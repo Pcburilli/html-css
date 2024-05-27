@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: rgb(200, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(100, 0, 0);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color:blueviolet
+        }
+        .especial::before {
+            content: ' ⭢ ';
+        }
+        .especial::after {
+            content: ' ⭠ '
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/Pcburilli" target="_blank">Github</a></li>
+        <li><a href="https://www.youtube.com/channel/UCQsb4dvGf8O2ArjAxS_Ln5g" target="_blank" class="especial">Canal do youtube</a></li>
+        <li><a href="https://www.youtube.com/@Godeli/featured" target="_blank">Canal que eu tô mais assistindo</a></li>
+        <li><a href="https://fatosdomundogeek.com.br" target="_blank" class="especial">Fatos do mundo geek</a></li>
+    </ul>
+</body>
+</html>
