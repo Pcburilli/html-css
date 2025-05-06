@@ -1,0 +1,13 @@
+@charset "UTF-8";
+#um:checked ~ #icone {
+    
+}
+#icone {
+
+}
+#foto {
+    display: none;
+}
+#icone:active  #foto{
+    visibility: hidden;
+}
